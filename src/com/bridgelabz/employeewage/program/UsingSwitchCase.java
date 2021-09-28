@@ -1,14 +1,14 @@
 package com.bridgelabz.employeewage.program;
 
 public class UsingSwitchCase {  
-	final int FULL_TIME = 1;
-	final int PART_TIME = 4;
+	final int FULL_TIME = 2;
+	final int PART_TIME = 1;
 	final int WAGE_PER_HR = 20;
 	int workingHours = 0;
 	int empType;
 	
 	UsingSwitchCase()  {
-		empType = (int) (Math.random() * 100) % 2;
+		empType = (int) (Math.random() * 100) % 3;
 		
 		switch (empType)
 		{
