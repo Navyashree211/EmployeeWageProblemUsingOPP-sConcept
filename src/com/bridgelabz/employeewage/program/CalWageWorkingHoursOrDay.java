@@ -13,7 +13,8 @@ public class CalWageWorkingHoursOrDay {
 
 	CalWageWorkingHoursOrDay() {
 
-		System.out.printf("%5s     %5s     %5s     %5s\n", "Day", "Workinghrs", "Wage", "Total working hrs");
+		System.out.printf("%5s     %5s     %5s     %5s\n", "Day",  
+				"Workinghrs", "Wage", "Total working hrs");          //%5s prints out the string left padded by space until the total length is 5.
 
 		for (int day = 1, totalWorkingHrs = 0; day <= MAX_WORKING_DAYS
 				&& totalWorkingHrs < MAX_WORKING_HRS; day++, totalWorkingHrs += workingHours) {
